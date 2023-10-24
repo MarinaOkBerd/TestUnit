@@ -51,7 +51,7 @@ public class VehicleTest {
     }
 
     @Test
-    @DisplayName("Motocycle в режиме парковки останавливается.")
+    @DisplayName("Motorcycle в режиме парковки останавливается.")
     void MotorcycleParkingTest(){
         this.motorcycle.testDrive();
         this.motorcycle.park();
